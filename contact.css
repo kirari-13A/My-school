@@ -1,0 +1,48 @@
+
+
+h1{
+    border-radius: 10px;
+    border-color: antiquewhite;  
+    border:3px black solid;
+    background-color: rgb(224, 197, 197);
+    margin: 20px auto;             /* auto left/right centers */
+    display: block;                /* needed with margin auto */
+    width: fit-content; 
+    padding: 0px 50px;
+}
+a
+{
+    text-decoration: none;
+}
+p{
+      border-radius: 10px;
+    border-color: antiquewhite;  
+    border:3px black solid;
+    background-color: rgb(224, 197, 197);
+    margin: 20px auto;             /* auto left/right centers */
+    display: block;                /* needed with margin auto */
+    width: fit-content; 
+    padding: 0px 50px;
+}
+.contact a {
+    display: inline-block;        /* makes each link like a small box */
+    margin: 8px;                  /* space between links */
+    padding: 8px 15px;            /* padding inside */
+    border: 1px solid #ccc;       /* light border */
+    border-radius: 6px;           /* rounded corners */
+    text-decoration: none;        /* remove underline */
+    color: black;                 /* link color */
+    background-color: #f8f8f8;    /* light background */
+    transition: 0.3s;
+    text-align: center;
+}
+
+.contact a:hover {
+    background-color: #ddd;       /* hover effect */
+    color: blue;                  /* text changes on hover */
+}
+.contact {
+    text-align: center;  /* center content horizontally */
+    margin-top: 100px;    /* optional spacing from top */
+}
+

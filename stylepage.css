@@ -1,0 +1,81 @@
+header{
+    background-image: url(AUPP_Logo.png);
+    background-color: rgb(140, 157, 219);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;         /* prevent repeating */
+    background-position: center;  
+    justify-content: flex-start;
+    background-size: contain;
+    background-position: left center;
+    margin-left: 0 100px;
+}
+
+
+.navbar
+{
+    background-color:rgb(242, 233, 233);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown button
+{
+    display: block;
+    color : rgb(97, 92, 92);
+    padding: 10px 15px ; 
+    background-color: rgb(242, 233, 233);
+    border: none;
+    cursor: pointer;
+}
+.dropdown a
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px ; 
+    color: rgb(24, 21, 21);
+    background-color: rgb(176, 173, 169);
+}
+.dropdown .select
+{
+    display: none;
+    position: absolute;
+    box-shadow: 2px 2px 5px rgb(67, 64, 64);
+}
+.dropdown:hover .select
+{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(184, 184, 184);
+}
+.dropdown a:hover 
+{
+    background-color: rgb(158, 158, 158);
+}
+.pic
+{
+    background-image: url(Home-Campus.jpg);
+    margin: 0;
+    min-height: 100vh;             /* full screen height */
+    width: 100%;                   /* full width */
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-attachment: fixed;
+}
+#pic1 ,#pic2, #pic3
+{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}

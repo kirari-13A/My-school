@@ -1,0 +1,56 @@
+
+.box {
+    width: 100%;   /* sets form width */
+    padding: 20px;  /* spacing inside */
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    box-sizing: border-box;
+     
+   
+}
+
+#firstname ,#lastname , #birthday ,#Major, #email, #phonenumber,#file
+{
+  width: 93%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #989191;
+  text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(92, 87, 87);
+    border: dashed;
+    border-radius: 25px;
+    border-color: rgb(213, 197, 177);
+    background-color: bisque;
+     
+}
+h3 {
+    display: block;
+    max-width: 600px;       /* width of the background box */
+    margin: 20px auto;      /* centers the box, equal space on left/right */
+    text-align: center;
+    background-color: #989191; /* background color */
+    padding: 10px 20px;     /* space inside the box */
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box; /* include padding in width */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4509d3;
+}

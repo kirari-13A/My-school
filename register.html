@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="register.css">
+    <header> 
+       <h1>Welcome to Our school.</h1> 
+       <h3>Register your application</h3>
+    </header>
+<body>
+    <form action="register.html" method="post" class="box">
+    <label for = "firstname"> 
+        <input type ="text" id= "firstname" name = "firstname" placeholder="Enter Your First Name" required>
+    </label>
+    <br>
+     <label for = "lastname"> 
+        <input type ="text" id="lastname" name = "lastname" placeholder="Enter Your last Name" required>
+    </label>
+    <br>
+    <label for = "birthday">
+        <input type = "date" id ="birthday" name="birthday" placeholder="Enter Your Birthday" required>
+    </label>
+    <br>
+   
+    <br> 
+    <label for = "email">
+        <input type = "email" id ="email" name="email" placeholder="Enter Your Emial address" required>
+    </label>
+    <br>
+    <label for = "phonenumber">
+        <input type = "number" id ="phonenumber" name="phonenumber" placeholder="Enter Your Phone Number" required>
+    </label>
+
+    <br>
+     <label for="Major">Choose your major:</label>
+  <select id="Major" name="Major">
+    <option value="">Choose your Major</option>
+    <option value="Software Devlopment">Software Devlopment</option>
+    <option value="Cybersecurity">Cybersecurity</option>
+    <option value="Business Addmistration">Business Addmistration</option>
+    <option value="International Relation">International Relation</option>
+  </select><br>
+    <label for ="file">Your temporary certificate (If you have): 
+        <input type ="file" id="file" name="file">
+    </label>
+    <br><br>
+    <button type ="submit">Submit</button>
+    </form>
+</body>
+</html>
