@@ -1,0 +1,118 @@
+h1{
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  font-family: system-ui;
+  color: rgb(17, 17, 221);
+}
+h2{
+   font-size: 2rem;
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  font-family: system-ui;
+  color: white;
+}
+.dropdown a
+{
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin: 20px;
+  color: white;
+}
+.dropdown{
+  background-color: blue;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.step
+{
+  margin-top: 20px;
+  background-color: white;
+  background-size: 300px 100px;
+  width:100vh;
+  text-align: center;
+  padding: 10px;
+  
+}
+#Bachelor, #master
+{
+  color: white;
+  font-size: 1.5rem; 
+}
+.Bachelor, .master
+{
+  text-align: center;
+  
+}
+.icon
+{
+  font-size: 3rem;
+  color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+p{
+  padding-bottom: 20px;
+}
+.box
+{
+  background-color: white;
+}
+.footer
+{
+  margin-top: 25px;
+  background-color: rgb(53, 107, 255);
+  color: white;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 20px;
+}
+.contact
+{
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+#click
+{
+  text-align: center;
+}
+main {
+  background-color: rgb(27, 27, 184);
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers children horizontally */
+  justify-content: center; /* centers vertically */
+  min-height: 100vh;     /* fill the screen */
+  border-radius: 20px;
+}
+.master{
+  margin-top: 20px;
+}
+#over
+{
+ background-color: rgb(27, 27, 184);
+ height: 25px;
+}
+#register:hover
+{
+    background-color: rgb(70, 61, 136);
+    border: 2px solid;
+    border-radius: 10px;
+}
+#location:hover{
+    background-color: rgb(70, 61, 136);
+    border: 2px solid;
+    border-radius: 10px;
+}
+#activities:hover{
+    background-color: rgb(70, 61, 136);
+    border: 2px solid;
+    border-radius: 10px;
+}
